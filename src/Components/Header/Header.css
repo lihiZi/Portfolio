@@ -1,0 +1,164 @@
+span {
+    
+    font-weight: bolder;
+    font-size: 5vw;
+    z-index: 2;
+}
+/*.divine{
+ grid-area: 1/1/13/13;
+ z-index: 0;
+ border-bottom-left-radius: 50% 20%;
+ border-bottom-right-radius: 50% 20%;
+ border: 5px salmon solid;} */
+
+
+
+
+.frames {
+    
+       grid-area: 1/1/7/13;
+       z-index: 1;
+       background-color: #748C8C;
+       opacity: 0.6;
+       /*background-image: linear-gradient( white, #a08d8d );*/
+
+       border-bottom-left-radius: 50% 20%;
+       border-bottom-right-radius: 50% 20%;
+       border-bottom: 30px rgba(140, 116, 116, 0.8) solid;
+       
+    
+    
+}
+
+.name {
+	grid-area: 2/2/3/6;
+    z-index: 2;
+    font-size: 4vw;
+    margin: 0;
+    align-self: end;
+    letter-spacing: 10px;
+}
+
+.title {
+    grid-area: 3/2/4/8;
+    z-index: 2;
+    font-size: 4vw;
+    justify-self: start;
+    margin: 0;
+    align-self: start;
+    letter-spacing: 17px;
+}
+    
+
+.comics {
+    grid-area: 6/9/8/11;
+    z-index: 1;
+    border-radius: 50%;
+    border: 5px rgba(140, 116, 116, 0.8)  solid; 
+    background-color:transparent;
+    background-size: 100% 100%;
+    background-image: url(../../Assets/me.jpg);
+    background-repeat: no-repeat;
+    color:transparent;
+    transition: 1s;
+    
+    
+}
+
+.comics:hover {
+    background-image:none;
+    backGround-color: rgb(255, 219, 88 );
+    color:black;
+    font-size: 22px;
+    
+}
+
+
+
+
+.github {
+    grid-area: 4/2/5/3;
+    width: 50px;
+    background-color:#FFDB58;
+    max-height: 50px;
+    justify-self: end;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    border-radius: 50%;
+    border:2px #FFDB58 solid;
+
+}
+
+.linkedin {
+    grid-area: 4/3/5/4;
+    width: 50px;
+    max-height: 50px;
+    justify-self: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index:3;
+    border-radius: 50%;
+    background-color:#FFDB58;
+
+   
+   
+
+}
+
+.tag{
+
+ width:250px;
+ height:160px;
+ justify-self:center;
+ grid-area:7/8/8/10;
+ z-index:4;
+}
+.codewars {
+    grid-area: 4/4/5/5;
+    width: 50px;
+    max-height: 50px;
+    justify-self: start;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    border-radius: 50%;
+    background-color:#FFDB58;
+    border:2px #FFDB58 solid;
+
+}
+
+
+
+@media  (max-width: 830px){
+    .name {
+        grid-area: 2/2/3/12;
+        font-size: 12vw;
+} 
+
+.title {
+    grid-area: 3/2/4/12;
+    font-size: 12vw;
+ 
+}
+.linkedin {
+    grid-area: 4/4/5/5;
+   
+
+}
+.codewars {
+    grid-area: 4/7/5/8;
+    
+
+}
+.comics {
+    grid-area:  6/8/8/12;
+}
+.tag{ 
+grid-area:7/7/8/9;
+}
+
+}

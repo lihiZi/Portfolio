@@ -1,0 +1,34 @@
+/*.frame {
+     background-color: beige;
+     border-radius: 30%;
+     z-index: 2;
+     border-bottom: 5px rgb(140, 116, 116)solid;
+     border-left:  5px rgb(140, 116, 116) solid;
+     
+
+}
+
+
+*/
+.title {
+    grid-area: 17/1/18/3;
+    justify-self: center;
+    z-index: 3; 
+}
+
+.ProjectButton:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+@media  (max-width: 830px){
+.hide {
+    display:none;
+}
+
+.title {
+   display:none;
+}
+}
+
+

@@ -1,0 +1,83 @@
+
+.as1 {
+   
+    width: 30px;
+    max-height: 30px; 
+    align-self: end; 
+    justify-self: end; 
+   
+   
+}
+
+.as2 {
+
+    width: 62px;
+    max-height: 62px; 
+    align-self: center; 
+    justify-self: center; 
+    
+
+}
+
+.as3 {
+
+    width: 40px;
+    max-height: 40px; 
+    align-self: start; 
+    justify-self: start; 
+   
+
+}
+
+.as4 {
+    width: 38px;
+    max-height: 38px; 
+    align-self: start; 
+    justify-self: end; 
+   
+    
+}
+
+.as5 {
+    width: 48px;
+    max-height: 48px; 
+    align-self: end; 
+    justify-self: start; 
+    
+    
+}
+
+@media  (max-width: 830px){
+
+.as1 {
+   
+    display:none; 
+   
+   
+}
+
+.as2 {
+
+    display:none; 
+    
+
+}
+
+.as3 {
+
+    display:none; 
+   
+
+}
+
+.as4 {
+    display:none; 
+   
+    
+}
+
+.as5 {
+    display:none; 
+    
+}
+}

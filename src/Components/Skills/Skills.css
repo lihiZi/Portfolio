@@ -1,0 +1,161 @@
+.frame{
+
+    grid-area: 10/8/15/13; 
+    background-image: url("../../Assets/frame.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    z-index: 3;
+  
+}
+
+.frame1 {
+    grid-area: 10/8/15/13; 
+    background-color:  beige;
+    opacity:0.8;
+    border-radius: 30%;
+    z-index: 2;
+    border-bottom: 15px rgba(140, 116, 116, 0.5) solid;
+    border-left:  5px rgba(140, 116, 116, 0.8) solid;
+   
+    
+
+}
+
+.title {
+    grid-area: 10/8/11/10;
+    align-self: end;    
+    justify-self: center;
+    z-index: 3;
+   
+    
+}
+
+
+
+.JavaScript{
+ grid-area: 11/8/12/10 ;
+}
+
+
+.Java {
+grid-area:11/9/12/11 ;
+}
+
+.React16 {
+grid-area: 11/10/12/12 ;
+}
+
+.NodeJs {
+grid-area: 11/11/12/13 ;
+}
+
+.MongoDB{
+grid-area: 12/8/13/10;
+}
+
+.HTML5 {
+grid-area: 12/9/13/11 ;
+}
+
+.CSS3 {
+grid-area: 12/10/13/12 ;
+}
+
+.git {
+ grid-area: 12/11/13/13 ;   
+}
+
+.npm {
+grid-area:13/8/14/10 ;
+}
+
+.php {
+grid-area: 13/9/14/11;
+}
+
+.WordPress {
+grid-area: 13/10/14/12;
+}
+
+
+.MySQL {
+grid-area: 13/11/14/13;
+}
+
+
+
+@media  (max-width: 830px){
+
+    .frame{
+
+        grid-area: 14/1/19/13; 
+    
+      
+    }
+
+    .frame1 {
+        grid-area: 14/1/19/13; 
+       
+       
+        
+    
+    }
+    .title {
+        grid-area: 14/2/15/4;
+      
+       
+        
+    }
+
+    
+    .JavaScript{
+        grid-area: 15/3/16/5 ;
+       }
+       
+       
+       .Java {
+       grid-area:15/6/16/8 ;
+       }
+       
+       .React16 {
+       grid-area: 15/9/16/11 ;
+       }
+       
+       .NodeJs {
+       grid-area: 16/3/17/5 ;
+       }
+       
+       .MongoDB{
+       grid-area: 16/6/17/8;
+       }
+       
+       .HTML5 {
+       grid-area: 16/9/17/11 ;
+       }
+       
+       .CSS3 {
+       grid-area: 17/3/18/5 ;
+       }
+       
+       .git {
+        grid-area: 17/6/18/8 ;   
+       }
+       
+       .npm {
+       grid-area:17/9/18/11 ;
+       }
+       
+       .php {
+       grid-area: 18/3/19/5;
+       }
+       
+       .WordPress {
+       grid-area: 18/6/19/8;
+       }
+       
+       
+       .MySQL {
+       grid-area: 18/9/19/11;
+       }
+
+}

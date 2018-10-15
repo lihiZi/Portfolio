@@ -1,0 +1,90 @@
+.layout {
+    display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-auto-rows: minmax(110px, auto); 
+	font-family: 'Gaegu', cursive;
+
+}
+
+.frame{
+
+    grid-area: 17/1/22/13; 
+    background-image: url("../../Assets/frame.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 0;
+}
+
+
+.footer {
+
+	grid-area: 26/1/30/13;
+	z-index: 1;
+	background-color:beige;
+	border-top-left-radius: 50% 20%;
+	border-top-right-radius: 50% 20%;
+	border-top: 20px rgb(140, 116, 116) solid;
+	
+} 
+.phone{
+    grid-area: 27/1/28/2;
+    z-index:2;
+    width:80px;
+    height:80px;
+    align-self: end;
+    justify-self: center;
+}
+.phoneNum{
+	grid-area: 27/2/28/4;
+	z-index: 2;
+	justify-self: center;
+	align-Self: end;
+}
+.email{
+	grid-area: 28/2/28/4;
+	z-index: 2;
+	justify-self: center;
+	align-Self: end;
+}
+
+.envelope{
+    grid-area: 28/1/29/2;
+    z-index:2;
+    width:80px;
+    height:80px;
+    align-self: end;
+    justify-self: center;
+}
+.rights {
+	grid-area:29/10/30/12;
+	z-index: 2;
+}
+
+
+
+body {
+	
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+@media  (max-width: 830px){
+.footer{
+	grid-area: 32/1/36/13;
+}
+.phone {
+    grid-area:33/1/34/2;
+}
+.envelope {
+    grid-area:34/1/35/2;
+}
+.phoneNum {
+	grid-area: 33/3/34/11;
+}
+.email {
+	grid-area: 34/3/35/11;
+}
+.rights {
+	display: none;
+}
+}

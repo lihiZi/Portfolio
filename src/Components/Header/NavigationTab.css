@@ -1,0 +1,59 @@
+.star {
+   
+    width: 45px;
+    max-height: 45px;
+    justify-self: end;
+    z-index: 4;
+    position: sticky;
+    top:0;
+    
+ 
+ 
+ }
+a {
+    color: black;
+    position: sticky;
+    top:0;
+    z-index: 5;
+    text-decoration: none;
+}
+
+
+
+
+a> div {
+    background-color: #FFDB58; 
+    z-index: 5;
+    width: 13px;
+    height: 5px;
+    border-radius:30%;
+    justify-self: center;
+    position:sticky;
+    top:0;
+    transition: width 0.5s;
+}
+
+a:link {
+    
+}
+
+a:visited {
+    
+}
+
+a:hover > div {
+   
+    width: 30px;
+  
+   
+}
+
+a:hover div {
+
+
+}
+
+a:active {
+  
+} 
+

@@ -1,0 +1,66 @@
+.frame{
+
+    grid-area: 10/1/15/6; 
+    background-image: url("../../Assets/frame.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 3;
+}
+
+.title {
+    grid-area: 10/1/11/3;
+    align-self: end;    
+    justify-self: center;
+    z-index: 3;
+}
+
+.content {
+    grid-area: 11/2/14/5;
+    justify-self: start;
+    font-size:20px;
+    z-index: 3;
+
+}
+
+
+.frame1 {
+    grid-area: 10/1/15/6; 
+    background-color: beige;
+    opacity:0.5;
+    border-radius: 30%;
+    z-index: 2;
+    border-bottom: 15px rgba(140, 116, 116, 0.5) solid;
+    border-left:  5px rgba(140, 116, 116, 0.5) solid;
+
+}
+
+
+
+
+@media  (max-width: 830px){
+
+    .frame{
+
+        grid-area: 8/1/13/13; 
+      
+    }
+    
+    .title {
+        grid-area: 8/2/9/6;
+       
+    }
+    
+    .content {
+        grid-area: 9/2/12/12;
+      
+    
+    }
+    
+    
+    .frame1 {
+        grid-area: 8/1/13/13; 
+       
+    
+    }
+
+}
