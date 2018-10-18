@@ -10,13 +10,27 @@ const about = () =>
             <div className={classes.frame}> </div>
            <h1 className={classes.title}> About Me. </h1>
             <div className={classes.frame1}> </div>
-             <p className={classes.content}> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                 officia deserunt mollit anim id est laborum.</p>
+             <p className={classes.content}> 
+
+I am Lihi Ziger. I enjoy developing user-friendly, responsive, and imaginative applications and sites. 
+
+I love creating new things, solving logical problems, and learning about new technologies. This explains my passion for coding.
+
+ 
+
+I have an extensive training in coding and experience in working with various languages. In the past two years, I have taught myself how to code by successfully completing several academic courses in Computer Science, graduating from an intensive coding bootcamp, and by immersing myself in numerous books, blogs, and online tutorials about coding and developing. I am proficient in Javascript (ES6), React16, NodeJS, HTML and CSS. 
+
+  
+
+I am looking forward to working in an exciting environment that will allow me to make use of my acquired expertise and further develop it. I also seek to learn from others, and contribute to innovative and fascinating projects.
+
+
+
+
+
+
+
+</p>
           
             
        

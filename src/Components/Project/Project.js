@@ -25,7 +25,7 @@ class Project extends Component{
                
             },
             projectButton: {
-                href:"https://www.w3schools.com",
+                
                 backgroundColor: "transparent",
                 border: "transparent",
                 outline:"none",
@@ -105,7 +105,7 @@ class Project extends Component{
             <div  onMouseLeave={this.mouseLeaveHandler.bind(this)}  style={this.state.extraFrame}> <p style={{margin:"50px"}}>
                 {this.props.children}</p>
                  
-                <a  style={this.state.projectButton}> See Project </a> 
+                <a href={this.props.hrf} style={this.state.projectButton}> See Project </a> 
             </div>
             
            
