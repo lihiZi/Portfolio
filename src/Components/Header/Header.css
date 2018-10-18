@@ -70,7 +70,7 @@ span {
     backGround-color: rgb(255, 219, 88 );
     color:black;
     font-size: 22px;
-    
+    z-Index: 6;
 }
 
 

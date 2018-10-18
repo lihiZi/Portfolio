@@ -17,7 +17,7 @@ const header = () => {
         <a href="https://www.linkedin.com/in/lihi-ziger-056867b2/" style={{gridArea: "4/3/5/4"}}> <img className={classes.linkedin} src = {require("../../Assets/in.png")}  alt= "mmm" /> </a>
         <a href="https://www.facebook.com/lihi.zig" style={{gridArea: "4/4/5/5"}}><img className={classes.codewars} src = {require("../../Assets/fb.png")}  alt= "mmm" /></a>
         <div className={classes.frames}></div>
-        <div className={classes.comics}><p style={{margin:"35px"}}>In this site I built a Grid-CSS layout,used React16,and a bit of photoshop </p></div> 
+        <div className={classes.comics}><p style={{margin:"35px"}}>Hello! I created this site using react16,built a Grid-CSS layout, and used Photoshop. </p></div> 
         <img className={classes.tag}  src = {require("../../Assets/tag.png")}  alt= "mmm"/>
        
     
