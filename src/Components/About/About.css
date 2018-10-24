@@ -43,24 +43,31 @@
 
     .frame{
 
-        grid-area: 8/1/13/13; 
+       display: none;
       
     }
     
     .title {
-        grid-area: 8/2/9/6;
+        grid-area: 8/1/9/3;
        
     }
     
     .content {
-        grid-area: 9/2/12/12;
+        grid-area: 9/1/12/3;
+        text-align: start;
+        font-size: 25px;
       
     
     }
     
     
     .frame1 {
-        grid-area: 8/1/13/13; 
+        grid-area: 7/1/13/3; 
+        border-radius: 0;
+        z-index: 0;
+        border-top-right-radius: 50% 20%;
+        border-top-left-radius: 50% 20%;
+        
        
     
     }

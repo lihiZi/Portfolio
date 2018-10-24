@@ -77,10 +77,8 @@ span {
 
 
 .github {
-    grid-area: 4/2/5/3;
-    width: 50px;
+   
     background-color:#FFDB58;
-    max-height: 50px;
     justify-self: end;
     position: -webkit-sticky;
     position: sticky;
@@ -92,9 +90,8 @@ span {
 }
 
 .linkedin {
-    grid-area: 4/3/5/4;
-    width: 50px;
-    max-height: 50px;
+   
+   
     justify-self: center;
     position: -webkit-sticky;
     position: sticky;
@@ -116,10 +113,8 @@ span {
  grid-area:7/8/8/10;
  z-index:4;
 }
-.codewars {
-    grid-area: 4/4/5/5;
-    width: 50px;
-    max-height: 50px;
+.facebook {
+    
     justify-self: start;
     position: -webkit-sticky;
     position: sticky;
@@ -134,31 +129,33 @@ span {
 
 
 @media  (max-width: 830px){
-    .name {
-        grid-area: 2/2/3/12;
-        font-size: 12vw;
-} 
-
-.title {
-    grid-area: 3/2/4/12;
+ .frames {
+     grid-area: 1/1/7/3;
+ }
+ .name {
+    grid-area: 1/1/2/3;
+    justify-self: center;
     font-size: 12vw;
+} 
+span {
+    font-size: 12vw;
+}
+.title {
+    grid-area: 2/1/4/3;
+    font-size: 12vw;
+    justify-self: center;
+    text-align: center;
  
 }
-.linkedin {
-    grid-area: 4/4/5/5;
-   
 
-}
-.codewars {
-    grid-area: 4/7/5/8;
-    
-
-}
 .comics {
-    grid-area:  6/8/8/12;
+    grid-area: 6/2/8/3;
+    
 }
 .tag{ 
-grid-area:7/7/8/9;
+    grid-area:7/1/8/2;
+    width:40vw;
+    height:25vh;
 }
 
 }

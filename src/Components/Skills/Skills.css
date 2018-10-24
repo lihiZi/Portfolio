@@ -16,70 +16,94 @@
     z-index: 2;
     border-bottom: 15px rgba(140, 116, 116, 0.5) solid;
     border-left:  5px rgba(140, 116, 116, 0.8) solid;
-   
-    
-
 }
+.skillname {
+    align-self: end;
+    justify-self: center;
+    margin-bottom: 0;
+    z-index: 3;
+} 
+
 
 .title {
     grid-area: 10/8/11/10;
     align-self: end;    
     justify-self: center;
-    z-index: 3;
-   
-    
+    z-index: 3;  
 }
 
-
-
 .JavaScript{
- grid-area: 11/8/12/10 ;
+    grid-area: 11/8/12/10 ;
+    justify-self: center;
+    align-self: center;
 }
 
 
 .Java {
-grid-area:11/9/12/11 ;
+    grid-area:11/9/12/11 ;
+    justify-self: center;
+    align-self: center;
 }
 
 .React16 {
-grid-area: 11/10/12/12 ;
+    grid-area: 11/10/12/12 ;
+    justify-self: center;
+    align-self: center;
 }
 
 .NodeJs {
-grid-area: 11/11/12/13 ;
+    grid-area: 11/11/12/13 ;
+    justify-self: center;
+    align-self: center;
 }
 
 .MongoDB{
-grid-area: 12/8/13/10;
+    grid-area: 12/8/13/10;
+    justify-self: center;
+    align-self: center;
 }
 
 .HTML5 {
-grid-area: 12/9/13/11 ;
+    grid-area: 12/9/13/11 ;
+    justify-self: center;
+    align-self: center;
 }
 
 .CSS3 {
-grid-area: 12/10/13/12 ;
+    grid-area: 12/10/13/12 ;
+    justify-self: center;
+    align-self: center;
 }
 
 .git {
- grid-area: 12/11/13/13 ;   
+    grid-area: 12/11/13/13 ; 
+    justify-self: center;
+    align-self: center;  
 }
 
 .npm {
-grid-area:13/8/14/10 ;
+    grid-area:13/8/14/10 ;
+    justify-self: center;
+    align-self: center;
 }
 
 .php {
-grid-area: 13/9/14/11;
+    grid-area: 13/9/14/11;
+    justify-self: center;
+    align-self: center;
 }
 
 .WordPress {
-grid-area: 13/10/14/12;
+    grid-area: 13/10/14/12;
+    justify-self: center;
+    align-self: center;
 }
 
 
 .MySQL {
-grid-area: 13/11/14/13;
+    grid-area: 13/11/14/13;
+    justify-self: center;
+    align-self: center;
 }
 
 
@@ -88,74 +112,100 @@ grid-area: 13/11/14/13;
 
     .frame{
 
-        grid-area: 14/1/19/13; 
+        display:none; 
     
       
     }
 
     .frame1 {
-        grid-area: 14/1/19/13; 
+        grid-area: 14/1/20/3; 
+        border-radius: 0;
+       
        
        
         
     
     }
     .title {
-        grid-area: 14/2/15/4;
-      
+        grid-area: 14/1/15/3;
+       justify-self: center;
        
         
     }
 
     
     .JavaScript{
-        grid-area: 15/3/16/5 ;
+        grid-area: 15/1/16/3 ;
+        justify-self: start;
+        padding: 5px;
        }
        
        
        .Java {
-       grid-area:15/6/16/8 ;
+       grid-area:15/1/16/3 ;
+       justify-self: center;
+       padding: 5px;
        }
        
        .React16 {
-       grid-area: 15/9/16/11 ;
+       grid-area: 15/1/16/3 ;
+       justify-self: end;
+       padding: 5px;
        }
        
        .NodeJs {
-       grid-area: 16/3/17/5 ;
+       grid-area: 16/1/17/3 ;
+       justify-self: start;
+       padding: 5px;
        }
        
        .MongoDB{
-       grid-area: 16/6/17/8;
+       grid-area: 16/1/17/3;
+       justify-self: center;
+       padding: 5px;
        }
        
        .HTML5 {
-       grid-area: 16/9/17/11 ;
+       grid-area: 16/1/17/3 ;
+       justify-self: end;
+       padding: 5px;
        }
        
        .CSS3 {
-       grid-area: 17/3/18/5 ;
+       grid-area: 17/1/18/3 ;
+       justify-self: start;
+       padding: 5px;
        }
        
        .git {
-        grid-area: 17/6/18/8 ;   
+        grid-area: 17/1/18/3 ;
+        justify-self: center;   
+        padding: 5px;
        }
        
        .npm {
-       grid-area:17/9/18/11 ;
+       grid-area: 17/1/18/3 ;
+       justify-self: end;
+       padding: 5px;
        }
        
        .php {
-       grid-area: 18/3/19/5;
+       grid-area: 18/1/19/3;
+       justify-self: start;
+       padding: 5px;
        }
        
        .WordPress {
-       grid-area: 18/6/19/8;
+       grid-area: 18/1/19/3;
+       justify-self: center;
+       padding: 5px;
        }
        
        
        .MySQL {
-       grid-area: 18/9/19/11;
+       grid-area: 18/1/19/3;
+       justify-self: end;
+       padding: 5px;
        }
 
 }
