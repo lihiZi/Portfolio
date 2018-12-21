@@ -8,9 +8,9 @@ const about = () =>
     return (
         <Zoom>
             <div className={classes.frame}> </div>
-            <h1 className={classes.title}> About Me. </h1>
-            <div className={classes.frame1}> </div>
-            <p className={classes.content}> 
+            <h1  className={classes.title}> About Me. </h1>
+            <div className={classes.frame2}> </div>
+            <p   className={classes.content}> 
                 I am Lihi Ziger. I enjoy developing user-friendly, responsive, and imaginative applications and sites. 
                 I love creating new things, solving logical problems, and learning about new technologies.
                 This explains my passion for coding.
@@ -23,15 +23,7 @@ const about = () =>
                 allow me to make use of my acquired expertise and further develop it.
                 I also seek to learn from others, and contribute to innovative and fascinating projects.  
             </p>
-          
-            
-       
-        </Zoom>
-        
-    )
-
-
-    
+        </Zoom>      
+    )    
 }
-
 export default about;

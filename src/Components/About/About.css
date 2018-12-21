@@ -1,10 +1,10 @@
 .frame{
-
     grid-area: 10/1/15/6; 
     background-image: url("../../Assets/frame.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 3;
+
 }
 
 .title {
@@ -12,6 +12,19 @@
     align-self: end;    
     justify-self: center;
     z-index: 3;
+
+}
+
+.frame2 {
+    grid-area: 10/1/15/6; 
+    background-color: beige;
+    opacity:0.5;
+    border-radius: 30%;
+    z-index: 2;
+    border-bottom: 15px rgba(140, 116, 116, 0.5) solid;
+    border-left:  5px rgba(140, 116, 116, 0.5) solid;
+
+
 }
 
 .content {
@@ -24,25 +37,8 @@
 
 }
 
-
-.frame1 {
-    grid-area: 10/1/15/6; 
-    background-color: beige;
-    opacity:0.5;
-    border-radius: 30%;
-    z-index: 2;
-    border-bottom: 15px rgba(140, 116, 116, 0.5) solid;
-    border-left:  5px rgba(140, 116, 116, 0.5) solid;
-
-}
-
-
-
-
 @media  (max-width: 830px){
-
     .frame{
-
        display: none;
       
     }
@@ -56,20 +52,15 @@
         grid-area: 9/1/12/3;
         text-align: start;
         font-size: 25px;
-      
-    
+
     }
-    
-    
+     
     .frame1 {
         grid-area: 7/1/13/3; 
         border-radius: 0;
         z-index: 0;
         border-top-right-radius: 50% 20%;
-        border-top-left-radius: 50% 20%;
-        
-       
+        border-top-left-radius: 50% 20%;    
     
     }
-
 }

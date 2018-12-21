@@ -3,8 +3,7 @@ import classes from './Project.css';
 import Zoom from 'react-reveal/Zoom';
 import Radium from 'radium';
 
-class Project extends Component{ 
-    
+class Project extends Component{  
     constructor(props) {
         super(props);
         this.state = {
@@ -73,29 +72,19 @@ class Project extends Component{
     
         return (
             <React.Fragment>
+            
                 <h1 className={classes.title}>Projects.</h1>
+                {/* the folowing two divs represents the wavey background of projects section */}
                 <div className={classes.hide} style={{gridArea:"15/1/27/13", zIndex:"0", backgroundColor:"rgba(116,140,140,0.1)"}}> </div>
                 <div className= {classes.hide} style={{gridArea:"14/1/17/13", zIndex:"1", backgroundColor:"white",
                 borderBottomLeftRadius:"50% 50%" ,borderBottomRightRadius:"50% 50%"}}> </div>
-            
-                <a  key="extraFrame" style={this.state.extraFrame}><p style={{gridArea:this.props.location, padding:"20%"}}>{this.props.children}<br/> <span style={this.state.button}>See Project</span></p></a>
+                <a target="_blank" key="extraFrame" href={this.props.hrf} style={this.state.extraFrame}>
+                    <p style={{gridArea:this.props.location, padding:"20%"}}>
+                    {this.props.children}<br/> 
+                        <span style={this.state.button}>See Project</span>
+                    </p>
+                </a>
 
-              {/*}  {Radium.getState(this.state, 'extraFrame', ':hover') ? (
-                    <React.Fragment>
-                 <a style={this.state.button}>{' '}See Project</a>
-                 <p>{this.props.children}</p> 
-                 </React.Fragment>
-                  ) : null}
-                   {Radium.getState(this.state, 'button', ':hover') ? (
-                   <div key="extraFrame" style={this.state.extraFrame}>
-                   <a style={this.state.button}>{' '}See Project</a>
-                   </div>
-               
-                 
-                   ) : null} */}
-                
-                
-             
                 <Zoom>
                 <img  src = {this.props.img} alt="b" style={this.state.imgStyle}/> 
                 </Zoom> 

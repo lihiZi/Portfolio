@@ -1,33 +1,18 @@
-span {
-    
+span {  
     font-weight: bolder;
     font-size: 5vw;
     z-index: 2;
 }
-/*.divine{
- grid-area: 1/1/13/13;
- z-index: 0;
- border-bottom-left-radius: 50% 20%;
- border-bottom-right-radius: 50% 20%;
- border: 5px salmon solid;} */
-
-
-
 
 .frames {
-    
-       grid-area: 1/1/7/13;
-       z-index: 1;
-       background-color: #748C8C;
-       opacity: 0.6;
-       /*background-image: linear-gradient( white, #a08d8d );*/
+    grid-area: 1/1/7/13;
+    z-index: 1;
+    background-color: #748C8C;
+    opacity: 0.6;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+    border-bottom: 30px rgba(140, 116, 116, 0.8) solid;
 
-       border-bottom-left-radius: 50% 20%;
-       border-bottom-right-radius: 50% 20%;
-       border-bottom: 30px rgba(140, 116, 116, 0.8) solid;
-       
-    
-    
 }
 
 .name {
@@ -37,6 +22,7 @@ span {
     margin: 0;
     align-self: end;
     letter-spacing: 10px;
+
 }
 
 .title {
@@ -47,8 +33,8 @@ span {
     margin: 0;
     align-self: start;
     letter-spacing: 17px;
+
 }
-    
 
 .comics {
     grid-area: 6/9/8/11;
@@ -60,8 +46,7 @@ span {
     background-image: url(../../Assets/me.jpg);
     background-repeat: no-repeat;
     color:transparent;
-    transition: 1s;
-    
+    transition: 1s;   
     
 }
 
@@ -71,13 +56,10 @@ span {
     color:black;
     font-size: 22px;
     z-Index: 6;
+
 }
 
-
-
-
 .github {
-   
     background-color:#FFDB58;
     justify-self: end;
     position: -webkit-sticky;
@@ -90,8 +72,6 @@ span {
 }
 
 .linkedin {
-   
-   
     justify-self: center;
     position: -webkit-sticky;
     position: sticky;
@@ -100,21 +80,18 @@ span {
     border-radius: 50%;
     background-color:#FFDB58;
 
-   
-   
-
 }
 
 .tag{
+    width:250px;
+    height:160px;
+    justify-self:center;
+    grid-area:7/8/8/10;
+    z-index:4;
 
- width:250px;
- height:160px;
- justify-self:center;
- grid-area:7/8/8/10;
- z-index:4;
 }
+
 .facebook {
-    
     justify-self: start;
     position: -webkit-sticky;
     position: sticky;
@@ -126,36 +103,41 @@ span {
 
 }
 
-
-
 @media  (max-width: 830px){
- .frames {
-     grid-area: 1/1/7/3;
- }
- .name {
-    grid-area: 1/1/2/3;
-    justify-self: center;
-    font-size: 12vw;
-} 
-span {
-    font-size: 12vw;
-}
-.title {
-    grid-area: 2/1/4/3;
-    font-size: 12vw;
-    justify-self: center;
-    text-align: center;
- 
-}
+    .frames {
+        grid-area: 1/1/7/3;
 
-.comics {
-    grid-area: 6/2/8/3;
+    }
+
+    .name {
+        grid-area: 1/1/2/3;
+        justify-self: center;
+        font-size: 12vw;
+
+    } 
+
+    span {
+        font-size: 12vw;
+
+    }
+
+    .title {
+        grid-area: 2/1/4/3;
+        font-size: 12vw;
+        justify-self: center;
+        text-align: center;
     
-}
-.tag{ 
-    grid-area:7/1/8/2;
-    width:40vw;
-    height:25vh;
-}
+    }
+
+    .comics {
+        grid-area: 6/2/8/3;
+        
+    }
+
+    .tag{ 
+        grid-area:7/1/8/2;
+        width:40vw;
+        height:25vh;
+    }
 
 }

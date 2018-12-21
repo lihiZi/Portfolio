@@ -16,28 +16,19 @@ const skills = () =>
     return (
      
         <Zoom>
-          
-            
             <div className= {classes.frame}> </div>
-            <div className= {classes.frame1}> </div>
-                
-            
+            <div className= {classes.frame1}> </div>  
             <h1 className={classes.title}> Skills. </h1>
-           
-
             <img style={style} src = {require("../../Assets/js.png")}  alt= "mmm"  className={classes.JavaScript }/>
             <h4  style ={{gridArea:"11/8/12/10", '@media (max-width: 830px)': {gridArea: "15/1/16/3",justifySelf:"start",
-            padding: "5px"}}} className={classes.skillname } > JavaScript </h4>
-
-            <img style={style} src = {require("../../Assets/java.png")}  alt= "mmm" className={classes.Java}/>
-            <h4  style={{gridArea:"11/9/12/11" ,'@media (max-width: 830px)': {gridArea: "15/1/16/3",justifySelf:"center",padding: "5px"
+             padding: "5px"}}} className={classes.skillname } > JavaScript </h4>
+             <img style={style} src = {require("../../Assets/java.png")}  alt= "mmm" className={classes.Java}/>
+             <h4  style={{gridArea:"11/9/12/11" ,'@media (max-width: 830px)': {gridArea: "15/1/16/3",justifySelf:"center",padding: "5px"
                 }}} className={classes.skillname} > Java </h4>
-
             <img style={style} src = {require("../../Assets/react.png")}  alt= "mmm"  className={classes.React16}/>
             <h4  style={{gridArea:"11/10/12/12",'@media (max-width: 830px)': {gridArea: "15/1/16/3",justifySelf:"end",padding: "5px"
                 }}} className={classes.skillname} > React16 </h4>
-
-            <img style={style} src = {require("../../Assets/node.png")}  alt= "mmm"  className={classes.NodeJs}/>
+           <img style={style} src = {require("../../Assets/node.png")}  alt= "mmm"  className={classes.NodeJs}/>
             <h4  style={{gridArea:"11/11/12/13",'@media (max-width: 830px)': {gridArea: "16/1/17/3",justifySelf:"start",padding: "5px"
                 }}} className={classes.skillname}> NodeJs </h4>
 

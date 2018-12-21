@@ -1,5 +1,4 @@
-.star {
-   
+.star { 
     width: 45px;
     max-height: 45px;
     justify-self: end;
@@ -7,19 +6,16 @@
     position: sticky;
     top:0;
     
- 
- 
  }
+
 a {
     color: black;
     position: sticky;
     top:0;
     z-index: 5;
     text-decoration: none;
+
 }
-
-
-
 
 a> div {
     background-color: #FFDB58; 
@@ -31,6 +27,7 @@ a> div {
     position:sticky;
     top:0;
     transition: width 0.5s;
+
 }
 
 a:link {
@@ -42,14 +39,11 @@ a:visited {
 }
 
 a:hover > div {
-   
     width: 30px;
-  
    
 }
 
 a:hover div {
-
 
 }
 
