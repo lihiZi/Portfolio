@@ -68,7 +68,7 @@ class Layout extends Component {
                     Deployed on Heroku servers</p>
                 </Project>
                 <Project
-                    hrf="https://cloud-med.herokuapp.com/index.html"
+                    hrf="https://infinite-everglades-30530.herokuapp.com/index.html"
                     img={require("../../Assets/Project3.png")} target="_blank"
                     location="18/10/21/13" newLocation="28/1/31/3">
                     <p> A responsive website that was built for a health tech company. It was made with vanila JavavScript,
